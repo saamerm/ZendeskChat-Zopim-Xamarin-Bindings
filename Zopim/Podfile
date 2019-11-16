@@ -1,0 +1,5 @@
+platform :ios, '9.3'
+install! 'cocoapods', :integrate_targets => false
+target 'Xamarin' do
+        pod 'ZDCChat', '1.4.3'
+end
